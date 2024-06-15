@@ -1,0 +1,22 @@
+ 
+.movies_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    block-size: border-box;
+    justify-content: space-between;
+}
+.movie_card{
+    width: 300px;
+     border: 1px solid black; 
+}
+.movie_image{
+    width: 100%;
+    height: 400px;
+}
+.movie_title{
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+}
